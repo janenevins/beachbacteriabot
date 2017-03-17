@@ -1,12 +1,10 @@
 BeachBot tells users if ocean beaches in San Mateo County have unsafe levels of fecal bacteria.  
 
-When a user enters the name of a San Mateo County beach into the web app, the bot will return one of three messages: 
+When a user enters the name of a San Mateo County beach into the web app, the bot will return one of two messages: 
 
-If the levels are too high to swim safely: “{beach_name} has an Entero bacteria count of {e_count} on the date of {process_date}. This is {number}times the safe limit.” 
+“{beach_name} has an Entero bacteria count of {e_count} on the date of {process_date}. This is {number}times the safe limit.” 
 
-Or, if levels are in the safe threshold, the bot will return, “Looks good, have fun at the beach.”
-
-Finally, if the user enters the wrong beach name, it will return a list of beaches with this message: 'You must pick a beach from this list' 
+But if the user enters the wrong beach name, it will return a list of beaches with this message: 'You must pick a beach from this list' followed by a list of beaches. 
 
 This bot is inspired by the L.A. Times Quakebot and a story I’m writing about Pillar Point Harbor, which has the dirtiest beach in San Mateo County, Capistrano beach. 
 
