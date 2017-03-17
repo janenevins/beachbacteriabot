@@ -2,7 +2,7 @@ BeachBot tells users if ocean beaches in San Mateo County have unsafe levels of 
 
 When a user enters the name of a San Mateo County beach into the web app, the bot will return one of three messages: 
 
-If the levels are too high to swim safely: “{beach_name} has an Entero bacteria count of {e_count} on the date of {process_date}. This is {number}times the safe limit. The last three samples had an average count of {average_bac}.” 
+If the levels are too high to swim safely: “{beach_name} has an Entero bacteria count of {e_count} on the date of {process_date}. This is {number}times the safe limit.” 
 
 Or, if levels are in the safe threshold, the bot will return, “Looks good, have fun at the beach.”
 
