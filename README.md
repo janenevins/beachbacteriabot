@@ -17,7 +17,7 @@ This bot accompanies a story that investigates why it’s so hard to clean up Pi
 In the course of my reporting, I learned that after a rainfall, bacteria levels in the water can be several orders of magnitude over the safe limit. As someone who regularly disregarded the warning signs and surfed in contaminated water, I wanted to build a bot that provides the public with more information on just how bad the contamination is and how often the bacteria levels spike. 
 
 When levels are too high, San Mateo County posts a tiny sign on the beach that many surfers and swimmers ignore. 
-Like the quake bot, future iterations of the beach bot can proactively tweet when levels are too high, reaching people who might not seek out water quality information. The goal is to better inform the public about the local beach environment. 
+Like the Quakebot, future iterations of the beach bot can proactively tweet when levels are too high, reaching people who might not seek out water quality information. The goal is to better inform the public about the local beach environment. 
 
 The bot shows the Entero bacteria levels. I choose Entero bacteria because both the county and Surfrider, Entero bacteria as a standard measure of water quality. In the future, I’d like to add water sample data from Surfrider to the bot because Surfrider samples on the weekend, when the data is most relevant to swimmers and surfers. 
 
