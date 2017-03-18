@@ -5,8 +5,3 @@ def fix_date_string(datestring):  #this function transforms the date string into
     """
     ds = datestring.split('/')
     return '-'.join([ds[2], ds[0], ds[1]])
-
-def __sortfoo(somerecord): #this creats the key to sort by the date
-    a = somerecord['Process Date']
-    b = fix_date_string(a)
-    return b
