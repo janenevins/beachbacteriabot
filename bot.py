@@ -2,7 +2,7 @@ from sys import argv
 from utils.bacteriafoo import get_beach_results, get_beach_names
 from utils.stories import make_story
 
-
+# Here's a comment
 def bot(beachname):
     results = get_beach_results(beachname)
     if not results:
