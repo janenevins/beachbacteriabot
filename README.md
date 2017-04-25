@@ -1,3 +1,5 @@
+# Beach Bot 
+
 BeachBot tells users if ocean beaches in San Mateo County have unsafe levels of fecal bacteria.  
 
 When a user enters the name of a San Mateo County beach into the web app, the bot will return one of two messages: 
